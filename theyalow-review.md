@@ -54,22 +54,22 @@ You must use pure HTML and CSS in your solution. Fonts and images must be hosted
 
 1. Header
 - [ ] Interactive nav.
-- [ ] Logo
-- [ ] Think of where `h1` should be used.
+- [x] Logo
+- [x] Think of where `h1` should be used.
 
 2. Main
-- [ ] Video element placed with image placeholder.
+- [x] Video element placed with image placeholder.
 - [ ] Slider buttons could be inactive, but should exist.
 - (Next)
-- [ ] 3 columns the same width.
-- [ ] svg icons.
+- [x] 3 columns the same width.
+- [x] svg icons.
 - (Next)
 - [ ] Video element placed with image placeholder.
 - [ ] All '+' should be interactive.
 - [ ] Customize range input slider, could be inactive.
 
 3. Footer
-- [ ] Logo
+- [x] Logo
 
 **Mobile**
 
