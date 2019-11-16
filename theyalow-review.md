@@ -19,7 +19,7 @@ JPG:
 
 **[theyalow JPG Mobile](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/markups/level%201/theyalow/THEYALOW%20mobile.jpg)**
 
-- [ ] The reference point here is a successful per-pixel comparison via Pixel Perfect extension.
+- [x] The reference point here is a successful per-pixel comparison via Pixel Perfect extension.
 
 *[PerfectPixel extension for chrome](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi?hl=en)*
 
