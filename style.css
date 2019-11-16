@@ -1,0 +1,1643 @@
+@font-face {
+    font-family: "LucidaSans";
+    src: url(assets/fonts/LucidaSans-Italic.woff);
+}
+
+@font-face {
+    font-family: 'Segoe WP';
+    src: url(assets/fonts/SegoeWP-Light.woff);
+}
+
+@font-face {
+    font-family: 'Asap';
+    src: url(assets/fonts/Asap-Regular.woff);
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: url(assets/fonts/SegoeUI.woff);
+}
+
+@font-face {
+    font-family: 'PT Sans';
+    src: url(assets/fonts/PTSans-Regular.woff);
+}
+
+@font-face {
+    font-family: 'Segoe UI bold';
+    src: url(assets/fonts/SegoeUI-Bold.woff);
+}
+
+@font-face {
+    font-family: 'PT Sans Narrow';
+    src: url(assets/fonts/PTSans-Narrow.woff);
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url(assets/fonts/opensans.woff);
+}
+
+.background {
+    height: 566px;
+    width: 100%;
+    background-image: url('./assets/images/Layer\ 24\ copy.png');
+    background-size: cover;
+}
+
+.container {
+    height: 566px;
+    width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.left {
+    width: 140px;
+    height: 566px;
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.to-left {
+    height: 57px;
+    width: 32px;
+    background-image: url('./assets/images/Shape\ 1.svg');
+    margin-top: 300px;
+}
+
+.right {
+    width: 140px;
+    height: 566px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.to-right {
+    height: 57px;
+    width: 32px;
+    background-image: url('.//assets/images/Shape\ 1\ copy.svg');
+    margin-top: 300px;
+}
+
+.wrapper {
+    display: block;
+    height: 566px;
+    width: 1020px;
+    margin: 0 auto;
+}
+
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 1020px;
+    height: 150px;
+}
+
+.logotext {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.logo {
+    height: 83px;
+    width: 83px;
+    background-image: url('./assets/images/Shape\ 8\ copy\ 3.svg');
+    margin-top: 27px;
+    margin-left: -1px;
+}
+
+.text {
+    height: 83px;
+    width: 120px;
+    font-family: "LucidaSans";
+    font-style: italic;
+    font-size: 41px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    margin-top: 53px;
+    margin-left: 6px;   
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 50px;
+    width: 462px;
+    background-image: url('./assets/images/Rectangle\ 2\ copy\ 3.png');
+    margin-top: 62px;
+    margin-left: 350px;
+}
+
+.about {
+    width: 21px;
+    height: 19px;
+    background-image: url('./assets/images/Shape\ 5.svg');
+    margin-left: 47px;
+    margin-top: 9px;
+}
+
+.span1 {
+    margin-top: 9px;
+    margin-left: 9px;
+    font-size: 18px;
+    letter-spacing: 0px;
+    color: #9b7d08;
+    font-family: "Segoe WP";
+    text-align: center;
+}
+
+.layer9 {
+    height: 40px;
+    width: 1px;
+    margin-left: 22px;
+    margin-top: 9px; 
+}
+
+.service {
+    width: 19px;
+    height: 19px;
+    border-radius: 1px;
+    background-image: url('./assets/images/Shape\ 6.svg');
+    margin-top: 9px;
+    margin-left: 14px;
+}
+
+.span2 {
+    margin-top: 9px;
+    margin-left: 9px;
+    font-size: 18px;
+    letter-spacing: 0px;
+    color: #9b7d08;
+    font-family: "Segoe WP";
+    text-align: center;
+}
+
+.layer9copy {
+    height: 40px;
+    width: 1px;
+    margin-left: 18px;
+    margin-top: 9px; 
+}
+
+.contact {
+    width: 24px;
+    height: 18px;
+    border-radius: 6px;
+    background-image: url('./assets/images/Shape\ 7.svg');
+    margin-top: 9px;
+    margin-left: 17px;
+}
+
+.span3 {
+    margin-top: 9px;
+    margin-left: 8.5px;
+    font-size: 18px;
+    letter-spacing: 0px;
+    color: #9b7d08;
+    font-family: "Segoe WP";
+    text-align: center;
+}
+
+.main1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.video1 {
+    width: 549px;
+    height: 327px;
+    margin-top: 18px;
+    margin-left: 10px;
+}
+
+.block {
+    height: 327px;
+    width: 450px;
+    margin-top: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.cool {
+    height: 121px;
+    width: 392px;
+    font-size: 62px;
+    letter-spacing: 1px;
+    color: #f5c506;
+    font-family: "Asap";
+    font-weight: 400;
+    text-align: center;
+    margin-top: 75px;
+    margin-left: 42.5px;
+}
+
+.minimal {
+    height: 121px;
+    width: 450px;
+    font-size: 62px;
+    letter-spacing: 1px;
+    color:white;
+    font-family: "Asap";
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 100px;
+    margin-left: 22px;
+
+}
+
+.iconarea {
+    height: 212px;
+    width: 100%;
+    background-image: url('./assets/images/Layer\ 7.png');
+    background-size: cover;
+}
+
+.wrapper1 {
+    height: 212px;
+    width: 1020px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.col1 {
+    height: 212px;
+    width: 339px;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.design {
+    height: 74px;
+    width: 109px;
+    background-image: url('./assets/images/Shape\ 2.svg');
+    margin-top: 61px;
+    margin-right: 7px; 
+}
+
+.better {
+    font-size: 27px;
+    letter-spacing: 0px;
+    color: #000000;
+    font-family: "Segoe UI";
+    font-weight: 300;
+    margin-left: 17px;
+    margin-top: 12px;
+}
+
+.col2 {
+    height: 212px;
+    width: 339px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.custome {
+    height: 95px;
+    width: 91px;
+    background-image: url('./assets/images/Shape\ 3.svg');
+    margin-top: 37px;
+    margin-left: 20px;
+}
+
+.mize {
+    font-size: 27px;
+    letter-spacing: 0px;
+    color: #000000;
+    font-family: "Segoe UI";
+    font-weight: 300;
+    margin-left: 19px;
+    margin-top: 16px;
+}
+
+
+.col3 {
+    height: 212px;
+    width: 339px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.plane {
+    height: 83px;
+    width: 81px;
+    background-image: url('./assets/images/Shape\ 4.svg');
+    margin-top: 54px;
+    margin-right: 21px;
+}
+
+.free {
+    font-size: 27px;
+    letter-spacing: 0px;
+    color: #000000;
+    font-family: "Segoe UI";
+    font-weight: 300;
+    margin-right: 17px;
+    margin-top: 11px;
+}
+
+.section1 {
+    height: 509px;
+    width: 100%;
+    background-image: url('./assets/images/Layer\ 11.png');
+    background-size: cover;
+}
+
+.wrapper2 {
+    height: 509px;
+    width: 1020px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.lorem1 {
+    width: 918px;
+    height: 75px;
+    font-size: 37px;
+    color: #ffffff;
+    font-family: "PT Sans";
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    margin-top: 35px;
+}
+
+.blocks {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.orange {
+    height: 233px;
+    width: 341px;
+    background-image: url('./assets/images/Layer\ 22.png');
+    margin-left: -2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lorem-text {
+    width: 279px;
+    height: 190px;
+    font-size: 29px;
+    letter-spacing: 0.3px;
+    line-height: 38px;
+    color: #ffffff;
+    font-family: "Segoe WP";
+    font-weight: 300;
+    margin-top: 17px;
+}
+
+.plus1 {
+    width: 12px;
+    height: 12px;
+    background-image: url('./assets/images/Shape\ 11.svg');
+    margin-left: 301px;
+    margin-top: 1px;
+}
+
+.monkey {
+    height: 232px;
+    width: 350px;
+    background-image: url('./assets/images/Layer\ 25.png');
+    margin-left: -33px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center
+}    
+
+.button {
+    width: 62px;
+    height: 62px;
+    border-radius: 30px;
+    background-image: url('./assets/images/Shape\ 10\ copy.svg');
+    margin-top: 92px;
+    margin-left: 39px;
+}
+
+.twitter {
+    height: 233px;
+    width: 329px;
+    background-image: url('./assets/images/Layer\ 22\ copy\ 3.png');
+    margin-left: 33px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.number22 {
+    font-size: 25px;
+    letter-spacing: 0px;
+    line-height: 38px;
+    color: #ffffff;
+    font-family: "Segoe WP";
+    font-weight: 300;
+    margin-left: 285px;
+    margin-top: 9px;
+}
+
+.bird-image {
+    height: 133px;
+    width: 163px;
+    background-image: url('./assets/images/twitter.png');
+    margin-left: 82px;
+    margin-top: 12px;
+}
+
+.plus2 {
+    width: 12px;
+    height: 12px;
+    background-image: url('./assets/images/Shape\ 11\ copy.svg');
+    margin-top: 16px;
+    margin-left: 308px;
+}
+
+.date-block {
+    height: 86px;
+    width: 114px;
+    background-image: url('./assets/images/Layer\ 22\ copy.png');
+    margin-left: -2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;   
+}
+
+.number25 {
+    font-size: 50px;
+    letter-spacing: 1px;
+    line-height: 38px;
+    color: #ffffff;
+    font-family: "Segoe UI bold";
+    font-weight: bold;
+    margin-top: 12px;
+    margin-left: 30px;
+}
+
+.april {
+    font-size: 21px;
+    letter-spacing: 0px;
+    line-height: 38px;
+    color: #b26529;
+    font-family: "Segoe UI";
+    margin-left: 34px;
+}
+
+.slaider {
+    height: 80px;
+    width: 1020px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.rounded-big {
+    width: 896px;
+    height: 15px;
+    border-radius: 7px;
+    background-image: url('./assets/images/Rounded\ Rectangle\ 2.png');
+    margin-top: 43px;
+    margin-left: 72px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.rounded-small {
+    width: 197px;
+    height: 15px;
+    border-radius: 7px;
+    background-image: url('./assets/images/Rounded\ Rectangle\ 3.png');
+    margin-left: 247px;
+}
+
+.section2 {
+    height: 499px;
+    width: 100%;
+    background-image: url('./assets/images/Layer\ 32.png');
+    background-size: cover;
+}
+
+.common {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.shadow {
+    margin-top: 2px;
+    background: #000000;
+    box-shadow: 0 -2px 0 2px rgba(0, 0, 0, 0.75); 
+}
+
+.wrapper3 {
+    width: 1020px;
+    height: 494px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.lorem-yellow {
+    width: 918px;
+    height: 50px;
+    font-size: 43px;
+    letter-spacing: 0.5px;
+    color: #f5c506;
+    font-family: "PT Sans";
+    font-weight: 400;
+    margin-top: 39px;
+    margin-left: 209px;
+}
+
+.two-blocks {
+    height: 379px;
+    width: 1020px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.devices {
+    width: 600px;
+    height: 310px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.sale {
+    height: 300px;
+    width: 350px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.desktop {
+    height: 255px;
+    width: 323px;
+    background-image: url('./assets/images/Layer\ 26.png');
+    margin-top: 47px;
+    margin-left: 18px;
+}
+
+.circle {
+    width: 116px;
+    height: 116px;
+    border-radius: 58px;
+    background-image: url('./assets/images/Ellipse\ 3.svg');
+    position: absolute;
+    top: 3px;
+    left: -3px;
+    display: flex;
+    flex-direction: column;
+}
+
+.free100 {
+    font-size: 19px;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+    font-family: "PT Sans Narrow";
+    font-weight: 700;
+    margin-left: 7px;
+    margin-top: 50px;
+}
+
+.tablet {
+    height: 173px;
+    width: 129px;
+    background-image: url('./assets/images/Layer\ 28.png');
+    margin-top: 89px;
+    margin-left: 15px;
+}
+
+.mobile {
+    height: 63px;
+    width: 39px;
+    background-image: url('./assets/images/Layer\ 29.png');
+    margin-left: 25px;
+    margin-top: 199px;
+}
+
+.list {
+    height: 350px;
+    width: 418px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.line1 {
+    height: 50px;
+    width: 390px;
+    margin-top: 85px;
+    margin-left: 28px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.point1 {
+    width: 14px;
+    height: 14px;
+    border-radius: 7px;
+    background-image: url('./assets/images/Ellipse\ 4.svg');
+    margin-left: 9px;
+    margin-top: 13px;
+}
+
+.first-line {
+    width: 352px;
+    height: 45px;
+    font-size: 22px;
+    letter-spacing: 0.1px;
+    color: #a9a9a7;
+    font-family: "Open Sans";
+    font-weight: 400;
+    margin-left: 20px;
+    margin-top: 8px;
+}
+
+.line2 {
+    height: 50px;
+    width: 390px;
+    margin-top: 3px;
+    margin-left: 28px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.point2 {
+    width: 14px;
+    height: 14px;
+    border-radius: 7px;
+    background-image: url('./assets/images/Ellipse\ 4.svg');
+    margin-left: 9px;
+    margin-top: 10px;
+}
+
+.second-line {
+    width: 352px;
+    height: 45px;
+    font-size: 22px;
+    letter-spacing: 0.2px;
+    color: #a9a9a7;
+    font-family: "Open Sans";
+    font-weight: 400;
+    margin-left: 20px;
+    margin-top: 4px;
+}
+
+.line3 {
+    height: 50px;
+    width: 390px;
+    margin-top: 3px;
+    margin-left: 28px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.point3 {
+    width: 14px;
+    height: 14px;
+    border-radius: 7px;
+    background-image: url('./assets/images/Ellipse\ 4.svg');
+    margin-left: 9px;
+    margin-top: 23px;
+}
+
+.third-line {
+    width: 352px;
+    height: 45px;
+    font-size: 22px;
+    letter-spacing: 0.1px;
+    color: #a9a9a7;
+    font-family: "Open Sans";
+    font-weight: 400;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.line4 {
+    height: 70px;
+    width: 390px;
+    margin-top: 3px;
+    margin-left: 28px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.point4 {
+    width: 14px;
+    height: 14px;
+    border-radius: 7px;
+    background-image: url('./assets/images/Ellipse\ 4.svg');
+    margin-left: 9px;
+    margin-top: 21px;
+}
+
+.fourth-line {
+    width: 352px;
+    height: 45px;
+    font-size: 22px;
+    letter-spacing: 0.2px;
+    color: #a9a9a7;
+    font-family: "Open Sans";
+    font-weight: 400;
+    margin-left: 20px;
+    margin-top: 14px;
+}
+
+.footer {
+    height: 64px;
+    width: 100%;
+    background-image: url('./assets/images/Layer\ 31.png');
+    background-size: cover;
+}
+
+.wrapper4 {
+    height: 64px;
+    width: 1020px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.mini-logo {
+    width: 54px;
+    height: 54px;
+    border-radius: 9px;
+    background-image: url('./assets/images/mini\ logo.svg');
+    margin-bottom: 6px;
+    margin-left: -1px;
+}
+
+.footer-text {
+    font-size: 27px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    font-family: "LucidaSans";
+    font-style: italic;
+    text-align: center;
+    margin-left: 5px;
+    margin-bottom: 2px;
+}
+
+
+@media (max-width: 640px) {
+    .background {
+        width: 640px;
+        height: 389px;
+        background: gray;    
+    }
+    
+    .container {
+        height: 389px;
+        width: 640px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    
+    .left {
+        display: none;
+        width: 140px;
+        height: 566px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .to-left {
+        display: none;
+        height: 57px;
+        width: 32px;
+        background-image: url('./assets/images/Shape\ 1.svg');
+        margin-top: 300px;
+    }
+    
+    .right {
+        display: none;
+        width: 140px;
+        height: 566px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    
+    .to-right {
+        display: none;
+        height: 57px;
+        width: 32px;
+        background-image: url('.//assets/images/Shape\ 1\ copy.svg');
+        margin-top: 300px;
+    }
+    
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        height: 702px;
+        width: 640px;
+        margin: 0 auto;
+    }
+    
+    
+    .header {
+        width: 640px;
+        height: 62px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        
+    }
+
+    .logotext {
+        width: 186px;
+        height: 62px;
+        background-image: url('./assets/images/Layer\ 26\ mini.png');
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    
+    .logo {
+        width: 40px;
+        height: 39px;
+        border-radius: 6px;
+        background-image: url('./assets/images/Shape\ 8\ copy\ 4\ mini.svg');
+        margin-left: 11px;
+        margin-top: -2px;
+    }
+    
+    .text {
+        margin-top: 77px;
+        font-size: 19px;
+        letter-spacing: 0px;
+        color: #ffffff;
+        font-family: "LucidaSans";
+        font-style: italic;
+        margin-left: 9px;
+    }
+    
+    .navbar {   
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        height: 62px;
+        width: 454px;
+        background-image: url('./assets/images/Rectangle\ 2\ copy\ mini.png');
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+    .about {
+        width: 24px;
+        height: 22px;
+        background-image: url('./assets/images/Shape\ 5\ mini.svg');
+        margin-left: 22px;
+        margin-bottom: 10px;
+    }
+    
+    .span1 {
+        margin-top: 1px;
+        margin-left: 12px;
+        font-size: 19px;
+        letter-spacing: 0.5px;
+        color: #9b7d08;
+        font-family: "Segoe WP";
+        text-align: center;
+    }
+    
+    .layer9 {
+        height: 62px;
+        width: 1px;
+        margin-left: 22px;
+        margin-top: 0px; 
+    }
+    
+    .service {
+        width: 22px;
+        height: 22px;
+        border-radius: 1px;
+        background-image: url('./assets/images/Shape\ 6\ mini.svg');
+        margin-bottom: 10px;
+        margin-left: 9px;
+    }
+    
+    .span2 {
+        margin-top: 1px;
+        margin-left: 8px;
+        font-size: 19px;
+        letter-spacing: 0.5px;
+        color: #9b7d08;
+        font-family: "Segoe WP";
+        text-align: center;
+    }
+    
+    .layer9copy {
+        height: 62px;
+        width: 1px;
+        margin-left: 15px;
+        margin-top: 0px; 
+    }
+    
+    .contact {
+        width: 29px;
+        height: 22px;
+        border-radius: 7px;
+        background-image: url('./assets/images/Shape\ 7\ mini.svg');
+        margin-left: 11px;
+        margin-bottom: 10px;
+    }
+    
+    .span3 {
+        margin-top: 1px;
+        margin-left: 10px;
+        font-size: 19px;
+        letter-spacing: 1px;
+        color: #9b7d08;
+        font-family: "Segoe WP";
+        text-align: center;
+    }
+    
+    .main1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    
+    .video1 {
+        width: 640px;
+        height: 327px;
+        background-image: url('./assets/images/Layer\ 18\ mini.png');
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    
+    .block {
+        display: none;
+        height: 327px;
+        width: 450px;
+        margin-top: 18px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    
+    .cool {
+        display: none;
+        height: 121px;
+        width: 392px;
+        font-size: 62px;
+        letter-spacing: 1px;
+        color: #f5c506;
+        font-family: "Asap";
+        font-weight: 400;
+        text-align: center;
+        margin-top: 75px;
+        margin-left: 42.5px;
+    }
+    
+    .minimal {
+        display: none;
+        height: 121px;
+        width: 450px;
+        font-size: 62px;
+        letter-spacing: 1px;
+        color:white;
+        font-family: "Asap";
+        font-weight: 400;
+        text-align: center;
+        margin-bottom: 100px;
+        margin-left: 22px;
+    
+    }
+    
+    .iconarea {
+        height: 180px;
+        width: 640px;
+        background-image: url('./assets/images/Layer\ 27\ copy\ mini.png');
+        background-size: cover;
+    }
+    
+    .wrapper1 {
+        height: 180px;
+        width: 640px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    
+    .col1 {
+        height: 180px;  
+        width: 210px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    
+    .design {
+        width: 89px;
+        height: 61px;
+        background-image: url('./assets/images/Shape\ 2\ mini.svg');
+        margin-top: 32px;
+        margin-left: -25px; 
+    }
+    
+    .better {
+        font-size: 23px;
+        letter-spacing: 0px;
+        color: #000000;
+        font-family: "Segoe UI";
+        font-weight: 300;
+        margin-top: 20px;
+        text-align: center;
+        margin-left: -21px;
+    }
+    
+    .col2 {
+        height: 180px;
+        width: 210px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    
+    .custome {
+        width: 67px;
+        height: 69px;
+        background-image: url('./assets/images/Shape\ 3\ mini.svg');
+        margin-top: 28px;
+        margin-left: 28px;
+    }
+    
+    .mize {
+        font-size: 23px;
+        letter-spacing: 0px;
+        color: #000000;
+        font-family: "Segoe UI";
+        font-weight: 300;
+        text-align: center;
+        margin-left: 27px;
+        margin-top: 16px;
+    }
+    
+    
+    .col3 {
+        height: 180px;
+        width: 220px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .plane {
+        width: 68px;
+        height: 69px;
+        background-image: url('./assets/images/Shape\ 4\ mini.svg');
+        margin-top: 28px;
+        margin-left: 17px;
+    }
+    
+    .free {
+        font-size: 23px;
+        letter-spacing: 0px;
+        color: #000000;
+        font-family: "Segoe UI";
+        font-weight: 300;
+        text-align: center;
+        margin-left: 28px;
+        margin-top: 16px;
+    }
+    
+    .section1 {
+        height: 475px;
+        width: 640px;
+        background: white;
+        background-size: cover;
+    }
+    
+    .wrapper2 {
+        height: 475px;
+        width: 640px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    
+    .lorem1 {
+        display: none;
+        width: 918px;
+        height: 75px;
+        font-size: 37px;
+        color: #ffffff;
+        font-family: "PT Sans";
+        font-weight: 400;
+        letter-spacing: 0.4px;
+        margin-top: 35px;
+    }
+    
+    .blocks {
+        display: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    
+    .orange {
+        height: 232px;
+        width: 299px;
+        background-image: url('./assets/images/Layer\ 22.png');
+        margin-left: -2px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 9px;
+    }
+    
+    .lorem-text {
+        width: 279px;
+        height: 190px;
+        font-size: 29px;
+        letter-spacing: 0.3px;
+        line-height: 38px;
+        color: #ffffff;
+        font-family: "Segoe WP";
+        font-weight: 300;
+        margin-top: 17px;
+    }
+    
+    .plus1 {
+        width: 12px;
+        height: 12px;
+        background-image: url('./assets/images/Shape\ 11.svg');
+        margin-left: 301px;
+        margin-top: 1px;
+    }
+    
+    .monkey {
+        height: 232px;
+        width: 340px;
+        background-image: url('./assets/images/Layer\ 29@1X.png');
+        margin-left: -33px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-left: 8px;
+    }    
+    
+    .button {
+        width: 62px;
+        height: 62px;
+        border-radius: 30px;
+        background-image: url('./assets/images/Shape\ 10\ copy.svg');
+        margin-top: 92px;
+        margin-left: 30px;
+    }
+    
+    .twitter {
+        display: none;
+        height: 0px;
+        width: 0px;
+        background-image: url('./assets/images/Layer\ 22\ copy\ 3.png');
+        margin-left: 33px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    
+    .number22 {
+        display: none;
+        font-size: 25px;
+        letter-spacing: 0px;
+        line-height: 38px;
+        color: #ffffff;
+        font-family: "Segoe WP";
+        font-weight: 300;
+        margin-left: 285px;
+        margin-top: 9px;
+    }
+    
+    .bird-image {
+        display: none;
+        height: 133px;
+        width: 163px;
+        background-image: url('./assets/images/twitter.png');
+        margin-left: 82px;
+        margin-top: 12px;
+    }
+    
+    .plus2 {
+        display: none;
+        width: 12px;
+        height: 12px;
+        background-image: url('./assets/images/Shape\ 11\ copy.svg');
+        margin-top: 16px;
+        margin-left: 308px;
+    }
+    
+    .date-block {
+        height: 233px;
+        width: 640px;
+        background-image: url('./assets/images/Layer\ 22\ copy\ 3\ mini.png');
+        margin-left: 0px;
+        margin-top: 9px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        background-repeat: no-repeat;   
+    }
+    
+    .left-bird {
+        height: 133px;
+        width: 159px;
+        background-image: url('./assets/images/twitter\ mini.svg');
+        margin-left: 85px;
+        margin-top: 59px;
+    }
+
+    .message {
+        height: 210px;
+        width: 290px;
+        background-image: url('./assets/images/Daily.png');
+        margin-top: 24px;
+        margin-left: 78px;
+    }
+
+    .number25 {
+        display: none;
+        font-size: 50px;
+        letter-spacing: 1px;
+        line-height: 38px;
+        color: #ffffff;
+        font-family: "Segoe UI bold";
+        font-weight: bold;
+        margin-top: 12px;
+        margin-left: 30px;
+    }
+    
+    .april {
+        display: none;
+        font-size: 21px;
+        letter-spacing: 0px;
+        line-height: 38px;
+        color: #b26529;
+        font-family: "Segoe UI";
+        margin-left: 34px;
+    }
+    
+    .slaider {
+        display: none;
+        height: 0px;
+        width: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    
+    .rounded-big {
+        display: none;
+        width: 896px;
+        height: 15px;
+        border-radius: 7px;
+        background-image: url('./assets/images/Rounded\ Rectangle\ 2.png');
+        margin-top: 43px;
+        margin-left: 72px; 
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    
+    .rounded-small {
+        display: none;
+        width: 197px;
+        height: 15px;
+        border-radius: 7px;
+        background-image: url('./assets/images/Rounded\ Rectangle\ 3.png');
+        margin-left: 247px;
+    }
+       
+
+    .section2 {
+    
+        height: 463px;
+        width: 640px;
+        background-image: url('./assets/images/Layer\ 33\ mini.png');
+        background-size: cover;
+    }
+    
+    .common {
+        width: 640px;
+        margin: 0 auto;
+    }
+    
+    .shadow {
+        margin-top: 2px;
+        background: #000000;
+        box-shadow: 0 -2px 0 1px rgba(0, 0, 0, 0.75); 
+    }
+    
+    .wrapper3 {
+        width: 640px;
+        height: 463px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    
+    .lorem-yellow {
+        width: 918px;
+        height: 130px;
+        font-size: 39px;
+        letter-spacing: 0.5px;
+        color: #f5c506;
+        font-family: "Open Sans";
+        font-weight: 400;
+        margin-top: 34px;
+        margin-left: 17px;
+    }
+    
+    .two-blocks {
+        height: 379px;
+        width: 640px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin-left: 39px;
+        margin-bottom: 4px;
+    }
+    
+    .devices {
+        width: 600px;
+        height: 310px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    
+    .sale {
+        height: 300px;
+        width: 350px;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    
+    .desktop {
+        height: 255px;
+        width: 323px;
+        background-image: url('./assets/images/Layer\ 26.png');
+        margin-top: 47px;
+        margin-left: 18px;
+    }
+    
+    .circle {
+        width: 116px;
+        height: 116px;
+        border-radius: 58px;
+        background-image: url('./assets/images/Ellipse\ 3.svg');
+        position: absolute;
+        top: 5px;
+        left: -13px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .free100 {
+        font-size: 19px;
+        letter-spacing: 0.5px;
+        color: #ffffff;
+        font-family: "PT Sans Narrow";
+        font-weight: 700;
+        margin-left: 7px;
+        margin-top: 50px;
+    }
+    
+    .tablet {
+        height: 173px;
+        width: 129px;
+        background-image: url('./assets/images/Layer\ 28.png');
+        margin-top: 89px;
+        margin-left: 15px;
+    }
+    
+    .mobile {
+        height: 63px;
+        width: 39px;
+        background-image: url('./assets/images/Layer\ 29.png');
+        margin-left: 25px;
+        margin-top: 199px;
+    }
+    
+    .list {
+        display: none;
+        height: 350px;
+        width: 418px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    
+    .line1 {
+        display: none;
+        height: 50px;
+        width: 390px;
+        margin-top: 85px;
+        margin-left: 28px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    
+    .point1 {
+        display: none;
+        width: 14px;
+        height: 14px;
+        border-radius: 7px;
+        background-image: url('./assets/images/Ellipse\ 4.svg');
+        margin-left: 9px;
+        margin-top: 13px;
+    }
+    
+    .first-line {
+        display: none;
+        width: 352px;
+        height: 45px;
+        font-size: 22px;
+        letter-spacing: 0.1px;
+        color: #a9a9a7;
+        font-family: "Open Sans";
+        font-weight: 400;
+        margin-left: 20px;
+        margin-top: 8px;
+    }
+    
+    .line2 {
+        display: none;
+        height: 50px;
+        width: 390px;
+        margin-top: 3px;
+        margin-left: 28px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    
+    .point2 {
+        display: none;
+        width: 14px;
+        height: 14px;
+        border-radius: 7px;
+        background-image: url('./assets/images/Ellipse\ 4.svg');
+        margin-left: 9px;
+        margin-top: 10px;
+    }
+    
+    .second-line {
+        display: none;
+        width: 352px;
+        height: 45px;
+        font-size: 22px;
+        letter-spacing: 0.2px;
+        color: #a9a9a7;
+        font-family: "Open Sans";
+        font-weight: 400;
+        margin-left: 20px;
+        margin-top: 4px;
+    }
+    
+    .line3 {
+        display: none;
+        height: 50px;
+        width: 390px;
+        margin-top: 3px;
+        margin-left: 28px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    
+    .point3 {
+        display: none;
+        width: 14px;
+        height: 14px;
+        border-radius: 7px;
+        background-image: url('./assets/images/Ellipse\ 4.svg');
+        margin-left: 9px;
+        margin-top: 23px;
+    }
+    
+    .third-line {
+        display: none;
+        width: 352px;
+        height: 45px;
+        font-size: 22px;
+        letter-spacing: 0.1px;
+        color: #a9a9a7;
+        font-family: "Open Sans";
+        font-weight: 400;
+        margin-left: 20px;
+        margin-top: 15px;
+    }
+    
+    .line4 {
+        display: none;
+        height: 70px;
+        width: 390px;
+        margin-top: 3px;
+        margin-left: 28px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    
+    .point4 {
+        display: none;
+        width: 14px;
+        height: 14px;
+        border-radius: 7px;
+        background-image: url('./assets/images/Ellipse\ 4.svg');
+        margin-left: 9px;
+        margin-top: 21px;
+    }
+    
+    .fourth-line {
+        display: none;
+        width: 352px;
+        height: 45px;
+        font-size: 22px;
+        letter-spacing: 0.2px;
+        color: #a9a9a7;
+        font-family: "Open Sans";
+        font-weight: 400;
+        margin-left: 20px;
+        margin-top: 14px;
+    }
+    
+    .footer {
+        height: 64px;
+        width: 640px;
+        background-image: url('./assets/images/Layer\ 31.png');
+        background-size: cover;
+    }
+    
+    .wrapper4 {
+        height: 64px;
+        width: 640px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    .mini-logo {
+        width: 31px;
+        height: 31px;
+        border-radius: 5px;
+        background-image: url('./assets/images/Shape\ 8\ copy\ 3\ mini.svg');
+        margin-bottom: 17px;
+        margin-left: 64px;
+    }
+    
+    .footer-text {
+        font-size: 17px;
+        letter-spacing: 0px;
+        color: #ffffff;
+        font-family: "LucidaSans";
+        font-style: italic;
+        text-align: center;
+        margin-left: 9px;
+        margin-bottom: 15px;
+    }
+}
